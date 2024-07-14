@@ -1,7 +1,7 @@
 import os
 from typing import Any, Dict, List
 
-from pdm.backend.hooks import Context
+from pdm.backend.hooks import Context # type: ignore
 
 TIANGOLO_BUILD_PACKAGE = os.getenv("TIANGOLO_BUILD_PACKAGE", "fastapi")
 
